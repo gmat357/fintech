@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @Comment("상장 기업 정보")
 public class CompanyInfo {
   @Id
-  private Long id;
+  private String id;
 
   @Column(length = 200, nullable = false)
   @Comment("회사명")
